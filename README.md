@@ -1,6 +1,6 @@
 # My Rummikub Game
 
-Este projeto tem como objetivo treinar e estudar as tecnologias envolvidas no desenvolvimento de um jogo de Rummikub.
+Este projeto tem como objetivo treinar e estudar as tecnologias envolvidas que escolhi para o desenvolvimento de um jogo de Rummikub para navegador.
 
 ## Tecnologias Utilizadas
 
