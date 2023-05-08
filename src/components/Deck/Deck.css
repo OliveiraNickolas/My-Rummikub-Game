@@ -1,0 +1,15 @@
+
+
+.deck-up {
+    background-image: url('../../assets/wood.svg'); 
+    background-position: right;  
+    background-size: cover; 
+}
+
+.deck-down {
+    filter: drop-shadow(0px -4px 5px rgba(0, 0, 0, 0.32));
+    background-image: url('../../assets/wood.svg');
+    background-position: bottom;
+    background-size: cover;
+   
+}
