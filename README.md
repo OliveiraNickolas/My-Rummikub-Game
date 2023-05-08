@@ -25,23 +25,15 @@ Este projeto está em desenvolvimento. A seguir estão algumas das funcionalidad
 ## Como executar o projeto
 
 1. Clone o repositório:
-``bash
-git clone https://github.com/OliveiraNickolas/my-rummikub-game.git
-``
+``git clone https://github.com/OliveiraNickolas/my-rummikub-game.git``
 
 2. Entre na pasta do projeto:
-``bash
-cd my-rummikub-game
-``
+``cd my-rummikub-game``
 
 3. Instale as dependências:
-``bash
-npm install
-``
+``npm i``
 
 4. Inicie o servidor de desenvolvimento:
-``bash
-npm start
-``
+``npm run dev``
 
 O projeto agora deve estar rodando no endereço ``http://localhost:3000``.
