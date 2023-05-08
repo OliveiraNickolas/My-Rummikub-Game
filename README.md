@@ -17,6 +17,9 @@ Este projeto está em desenvolvimento. A seguir estão algumas das funcionalidad
 - [ ] Interface de usuário completa
 - [ ] Multiplayer online
 
+![Screenshot do projeto](https://github.com/OliveiraNickolas/My-Rummikub-Game/blob/main/Captura%20de%20tela%202023-05-08%20223723.png)
+
+
 ## Como executar o projeto
 
 1. Clone o repositório:
