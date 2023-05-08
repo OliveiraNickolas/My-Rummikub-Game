@@ -4,7 +4,7 @@ Este projeto tem como objetivo treinar e estudar as tecnologias envolvidas no de
 
 ## Tecnologias Utilizadas
 
-- React
+- React + Vite
 - Tailwind CSS
 
 ## Estágio Atual do Projeto
