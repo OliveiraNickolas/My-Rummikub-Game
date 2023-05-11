@@ -22,9 +22,8 @@ export default {
         'span-8': 'span 8 / span 8',
         'span-7': 'span 7 / span 7',
         'span-12': 'span 12 / span 12',
-        'span-11': 'span 11 / span 11',
-        'span-36': 'span 36 / span 36',
-        'span-37': 'span 37 / span 37',
+        'span-10': 'span 10 / span 10',
+        'span-38': 'span 38 / span 38',
       },
       width: {
         '46/48': 'calc(46/48 * 100%)',

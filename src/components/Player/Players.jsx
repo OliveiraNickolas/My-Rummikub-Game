@@ -1,13 +1,13 @@
 import React from 'react';
-import './Player.css';
+import './Players.css';
 import PlayerInfo from './PlayerInfo';
 
-const Player = () => {
+const Players = () => {
   return (
-    <div className="player">
+    <div className="players">
       <PlayerInfo 
-      name="Best Player" 
-      cardCount={2} 
+      name="Artemis337" 
+      cardCount={12} 
       level={75} 
       totalTime={30} 
       elapsedTime={5} 
@@ -16,4 +16,4 @@ const Player = () => {
   );
 };
 
-export default Player;
+export default Players;
