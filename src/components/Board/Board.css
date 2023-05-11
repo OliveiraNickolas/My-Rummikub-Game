@@ -1,6 +1,5 @@
-.tile {
-    background-color: #d9d9d9;
-    width: 75px;
-    height: 110px;
-    border-radius: 10px;
-}
+  .cell {
+    background: #18181b;
+    border-radius: 4px;
+  }
+  

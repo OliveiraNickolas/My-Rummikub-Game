@@ -6,8 +6,8 @@ const Player = () => {
   return (
     <div className="player">
       <PlayerInfo 
-      name="Laza Renta" 
-      cardCount={10} 
+      name="Best Player" 
+      cardCount={2} 
       level={75} 
       totalTime={30} 
       elapsedTime={5} 

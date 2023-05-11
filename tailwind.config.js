@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       gridTemplateColumns: {
+        '31': 'repeat(31, minmax(0, 1fr))',
         '24': 'repeat(24, minmax(0, 1fr))',
         '21': 'repeat(21, minmax(0, 1fr))',
       },
@@ -14,11 +15,16 @@ export default {
         'span-20': 'span 20 / span 20',
       },
       gridTemplateRows: {
-        '11': 'repeat(11, minmax(0, 1fr))',
+        '48': 'repeat(48, minmax(0, 1fr))',
+        
       },
       gridRow: {
         'span-8': 'span 8 / span 8',
         'span-7': 'span 7 / span 7',
+        'span-12': 'span 12 / span 12',
+        'span-11': 'span 11 / span 11',
+        'span-36': 'span 36 / span 36',
+        'span-37': 'span 37 / span 37',
       },
       width: {
         '46/48': 'calc(46/48 * 100%)',

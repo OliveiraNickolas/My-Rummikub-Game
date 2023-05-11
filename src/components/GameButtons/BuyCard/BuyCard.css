@@ -1,3 +1,8 @@
-.inCirc {
+.Circle {
     box-shadow: inset 5px 6px 9px -7px rgba(0, 0, 0, 0.27), inset -5px -6px 16px -5px rgba(255, 255, 255, 0.8);
+}
+
+.tile-container {
+    background-image: url('../../../assets/tile.svg');
+    background-size: 100% 100%;
 }
