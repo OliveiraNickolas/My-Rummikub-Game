@@ -64,7 +64,9 @@ const Deck = () => {
             height: `${cellSize.height}px`,
           }}
           className="deckCell"
-        ></div>
+        >
+           <Tile width={cellSize.width} height={cellSize.height} />
+        </div>
       );
     }
   }
