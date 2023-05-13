@@ -3,12 +3,12 @@ import "./ArrangeButton.css";
 
 const ArrangeButton = () => {
   return (
-    <div className="button-container flex flex-col">
+    <div className="flex flex-col">
 
       <button
         className="rounded-tl-full rounded-tr-full 
-        w-24 h-24 
-        text-4xl font-bold  text-white text-center 
+        w-20 h-20 
+        text-3xl font-bold  text-white text-center 
         bg-zinc-700 hover:bg-zinc-800 active:bg-zinc-900 drop-shadow-md 
         cursor-pointer"
       >
@@ -18,8 +18,8 @@ const ArrangeButton = () => {
       <button
         className="rounded-bl-full rounded-br-full 
         border-t-2 border-zinc-800 
-        w-24 h-24
-        text-4xl font-bold text-white text-center
+        w-20 h-20 
+        text-3xl font-bold text-white text-center
         bg-zinc-700 hover:bg-zinc-800 active:bg-zinc-900 drop-shadow-md 
         cursor-pointer"
       >

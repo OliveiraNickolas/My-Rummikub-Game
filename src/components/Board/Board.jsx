@@ -30,7 +30,7 @@ const Board = ({ rows = 7 }) => {
           }}
           className='boardCell'
         >
-            <Tile width={cellSize.width} height={cellSize.height} />
+            
         </div>
         
       );

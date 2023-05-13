@@ -9,7 +9,7 @@ function Tile({ width = 96, height = 169.5, color = '#c60d11', number = 7 }) {
   return (
     <div
       className='flex items-start justify-center bg-center bg-no-repeat pt-2 pr-1'
-      style={{ backgroundImage: `url(${tileSvg})`, backgroundSize: '100% 100%', width: `${width}px`, height: `${height}px` }}
+      style={{ backgroundImage: `url(${tileSvg})`, backgroundSize: '100% 100%', width: '100%', height: '100%' }}
     >
       <div
         className='Circle rounded-full flex items-center justify-center'

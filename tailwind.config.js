@@ -19,10 +19,9 @@ export default {
         
       },
       gridRow: {
-        'span-8': 'span 8 / span 8',
         'span-7': 'span 7 / span 7',
-        'span-12': 'span 12 / span 12',
         'span-10': 'span 10 / span 10',
+        'span-34': 'span 34 / span 34',
         'span-38': 'span 38 / span 38',
       },
       width: {

@@ -10,18 +10,18 @@ import MenuButton from "./MenuButton/MenuButton";
 
 const GameButtons = () => {
   return (
-    <div className="game-buttons h-full w-full grid grid-rows-11">
+    <div className="game-buttons h-full w-full grid grid-rows-48">
 
-      <div className=" row-span-1 flex items-center justify-center">
+      <div className="row-span-4 flex items-center justify-center">
         <MenuButton />
       </div>
 
-      <div className=" row-span-7 flex flex-col items-center justify-center gap-10">
+      <div className=" row-span-34 flex flex-col items-center justify-center gap-10">
         <DoneButton/>
         <UndoButton/>
         <BuyCard/>
        </div>
-      <div className="row-span-3 flex items-center justify-center">
+      <div className="row-span-10 flex items-center justify-center">
         <ArrangeButton />
       </div>
 

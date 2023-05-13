@@ -4,21 +4,27 @@ import Tile from "../GameButtons/Tile/Tile";
 
 const Deck = () => {
   // Definindo o número inicial de colunas
-  const initialColumns = 15;
+  const initialColumns = 14
 
   // Mapeando o número de colunas para o tamanho das células
   const cellSizes = {
-    5: { width: 74.5, height: 112 },
-    6: { width: 74.5, height: 112 },
-    7: { width: 74.5, height: 112 },
-    8: { width: 74.5, height: 112 },
-    9: { width: 74.5, height: 112 },
-    10: { width: 74.5, height: 112 },
-    11: { width: 67.50, height: 101 },
-    12: { width: 61.80, height: 93 },
-    13: { width: 56.85, height: 85 },
-    14: { width: 52.65, height: 80 },
-    15: { width: 49, height: 74 },
+      14: { width: 74.5, height: 112 },
+      15: { width: 74.5, height: 112 },
+      16: { width: 74.5, height: 112 },
+      17: { width: 74.5, height: 112 },
+      18: { width: 74.5, height: 112 },
+      19: { width: 74, height: 111 },
+      20: { width: 71, height: 106.5 },
+      21: { width: 68, height: 102 },
+      22: { width: 64, height: 96 },
+      23: { width: 62, height: 93 },
+      24: { width: 59, height: 89 },
+      25: { width: 57, height: 86 },
+      26: { width: 54, height: 81 },
+      27: { width: 52, height: 78 },
+      28: { width: 50, height: 75 },
+      29: { width: 49, height: 74 },
+      30: { width: 48, height: 72 },
   };
 
   // Definindo o tamanho inicial da célula
@@ -29,61 +35,37 @@ const Deck = () => {
     setCellSize(cellSizes[initialColumns]);
   }, [initialColumns]);
 
-  const deckWidths = {
-    5: { width: 905 },
-    6: { width: 1070 },
-    7: { width: 1235 },
-    8: { width: 1400 },
-    9: { width: 1565 },
-    10: { width: 1595 },
-    11: { width: 1595 },
-    12: { width: 1595 },
-    13: { width: 1595 },
-    14: { width: 1595 },
-    15: { width: 1595 },
-  };
-
-  // Definindo o tamanho inicial do deck
-  const [deckWidth, setDeckWidth] = useState(deckWidths[initialColumns]);
-
-  // Atualizando o tamanho do deck quando o número de colunas mudar
-  useEffect(() => {
-    setDeckWidth(deckWidths[initialColumns]);
-  }, [initialColumns]);
-
   // Criando as células
   const deckCell = [];
-  for (let i = 0; i < 2; i++) {
-    // Sempre haverá 2 linhas
-    for (let j = 0; j < initialColumns; j++) {
-      deckCell.push(
-        <div
-          key={`${i === 0 ? "upper" : "lower"}-${j}`}
-          style={{
-            width: `${cellSize.width}px`,
-            height: `${cellSize.height}px`,
-          }}
-          className="deckCell"
-        >
-           <Tile width={cellSize.width} height={cellSize.height} />
-        </div>
-      );
-    }
+
+  for (let j = 0; j < initialColumns; j++) {
+    deckCell.push(
+      <div
+        key={`upper-${j}`}
+        style={{
+          width: `${cellSize.width}px`,
+          height: `${cellSize.height}px`,
+        }}
+        className="deckCell"
+      >
+         
+      </div>
+    );
   }
 
   // Renderizando as células dentro dos decks
   return (
     <div className="deck h-full flex flex-col items-center justify-end">
       <div
-        className="deck-up bg-zinc-700 rounded-tl-xl rounded-tr-xl max-h-24 h-1/2 flex items-end justify-center gap-0.5 overflow-visible"
-        style={{ width: `${deckWidth.width - 25 }px` }}
+        className="deck-up bg-zinc-700 rounded-tl-xl rounded-tr-xl max-h-24 h-1/2 pl-5 pr-5 flex items-end justify-start gap-0.5 overflow-visible"
+        style={{ minWidth: '1110px' }}
       >
         {deckCell}
       </div>
 
       <div
-        className="deck-down bg-zinc-700 rounded-tl-xl rounded-tr-xl max-h-24 h-1/2 flex items-end justify-center gap-0.5 overflow-visible"
-        style={{ width: `${deckWidth.width}px` }}
+        className="deck-down bg-zinc-700 rounded-tl-xl rounded-tr-xl max-h-24 h-1/2 pl-8 pr-8 flex items-end justify-start gap-0.5 overflow-visible"
+        style={{ minWidth: '1134px' }}
       >
         {deckCell}
       </div>
