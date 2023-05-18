@@ -12,16 +12,17 @@ const GameButtons = () => {
   return (
     <div className="game-buttons h-full w-full grid grid-rows-48">
 
-      <div className="row-span-4 flex items-center justify-center">
+      <div className="row-span-5 flex items-center justify-center">
         <MenuButton />
       </div>
 
-      <div className=" row-span-34 flex flex-col items-center justify-center gap-10">
+      <div className=" row-span-33 flex flex-col items-center justify-center gap-10">
         <DoneButton/>
         <UndoButton/>
         <BuyCard/>
        </div>
-      <div className="row-span-10 flex items-center justify-center">
+
+      <div className="row-span-10 flex items-center justify-center pt-1">
         <ArrangeButton />
       </div>
 
